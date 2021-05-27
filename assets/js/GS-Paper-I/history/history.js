@@ -28,7 +28,7 @@ function openContent(name)
     var pagename = name.replaceAll(" ","-");
     pagename = "/assets/js/GS-Paper-I/history/Peasant-Movements-1857-1947";
 
-    pagename = "Peasant-Movements-1857-1947";
+    //pagename = "Peasant-Movements-1857-1947";
     // $('#textbody').text(name)
     $('#textbody').load(pagename+".html")
 

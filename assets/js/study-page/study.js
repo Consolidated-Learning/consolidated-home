@@ -89,9 +89,9 @@ function loadmaindiv()
 function opentopic(foldername,topicname)
 {
     // var prefix = "https://github.com/Consolidated-Learning/consolidated-home/blob/d27bb2e7af9e2ee51b0e5de7661297751617374b";
-    // var filepath = "/assets/js/"+foldername.replace(" ","-")+"/"+topicname+"/"+topicname+".html";
+    var filepath = "/assets/js/"+foldername.replace(" ","-")+"/"+topicname+"/"+topicname+".html";
 
-    var filepath = topicname+".html";
+    // var filepath = topicname+".html";
     
   //  window.location.pathname = filepath ;
 
